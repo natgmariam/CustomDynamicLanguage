@@ -14,7 +14,7 @@ The program functions similarly to C++ and Java but with many restrictions. Here
 7. Variables, declared with keyword and assigned using := operator <br>
 8. User-defined unary functions defined with lambda statements <br>
 
-##Sample Run Commands 
+## Sample Run Commands 
 Test the functionality of the lambda function  <br>
 `auto f := lambda x { write x + 5; };`  <br>
 `f@4;`  <br>

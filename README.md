@@ -18,6 +18,7 @@ The program functions similarly to C++ and Java but with many restrictions. Here
 Test the functionality of the lambda function  <br>
 `auto f := lambda x { write x + 5; };`  <br>
 `f@4;`  <br>
+
 Test's functionality of Control Structures such as "if", "ifelse" & "while"  <br>
 `{auto x := 1; if x = 1 { auto x := 2; write x; } write x;};`  <br>
 `auto f := lambda x { ifelse x <= 1 { ret := 1; } { ret := x * f @(n - 1); } };`  <br>

@@ -15,22 +15,22 @@ The program functions similarly to C++ and Java but with many restrictions. Here
 8. User-defined unary functions defined with lambda statements <br>
 
 ##Sample Run Commands 
-Test the functionality of the lambda function
-`auto f := lambda x { write x + 5; };`
-`f@4;`
-Test's functionality of Control Structures such as "if", "ifelse" & "while"
-`{auto x := 1; if x = 1 { auto x := 2; write x; } write x;};`
-`auto f := lambda x { ifelse x <= 1 { ret := 1; } { ret := x * f @(n - 1); } };`
+Test the functionality of the lambda function  <br>
+`auto f := lambda x { write x + 5; };`  <br>
+`f@4;`  <br>
+Test's functionality of Control Structures such as "if", "ifelse" & "while"  <br>
+`{auto x := 1; if x = 1 { auto x := 2; write x; } write x;};`  <br>
+`auto f := lambda x { ifelse x <= 1 { ret := 1; } { ret := x * f @(n - 1); } };`  <br>
 
-Test's functionality of Control Structures + lambda function
-`auto fact := lambda n { ifelse n <= 1 { ret := 1; } { ret := n * fact@(n - 1); } };`
-`write fact@5;`
+Test's functionality of Control Structures + lambda function  <br>
+`auto fact := lambda n { ifelse n <= 1 { ret := 1; } { ret := n * fact@(n - 1); } };`  <br>
+`write fact@5;`  <br>
 
-Test's functionality of all of the supported function 
-`auto other := lambda k { auto prod := 1; auto i := 1; while i <= k { prod := prod * i; i := i + 1; } ret := prod; };`
+Test's functionality of all of the supported function  <br>
+`auto other := lambda k { auto prod := 1; auto i := 1; while i <= k { prod := prod * i; i := i + 1; } ret := prod; };`  <br>
 
-Test's a simple loop control
-`auto i := 1;`
-`auto sum := 0;`
-`while i <= 100 { sum := sum + i; i := i + 1; }`
-`write sum;`
+Test's a simple loop control  <br>
+`auto i := 1;`  <br>
+`auto sum := 0;`  <br>
+`while i <= 100 { sum := sum + i; i := i + 1; }`  <br>
+`write sum;` <br>

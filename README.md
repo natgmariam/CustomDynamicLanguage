@@ -6,13 +6,13 @@ The program supports features such as while loops, if-else statements, function 
 ## Functionality
 The program functions similarly to C++ and Java but with many restrictions. Here is a list of some of the functions it supports. 
 -Integers and booleans
--Basic arithmetic (+, -, *, and /)
--Numeric comparisons (=, !=, >, >=, <, and <=)
+*Basic arithmetic (+, -, *, and /)
++Numeric comparisons (=, !=, >, >=, <, and <=)
 -Boolean operators (&&, ||, !&)
--Input/output (read and write)
--Control structures (if, ifelse, and while)
+*Input/output (read and write)
++Control structures (if, ifelse, and while)
 -Variables, declared with keyword and assigned using := operator
--User-defined unary functions defined with lambda statements
+*User-defined unary functions defined with lambda statements
 
 ##Sample Run Commands 
 Test the functionality of the lambda function
